@@ -1,0 +1,8 @@
+################################################################################
+#                                nvImageBrowser                                #
+#                                  TO-DO LIST                                  #
+################################################################################
+
+- Finish AppControler class.
+- Create AppSettings class.
+- Create Browser and Viewer main windows.
