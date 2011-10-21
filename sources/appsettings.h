@@ -1,8 +1,19 @@
+/*!
+ *  \file appsettings.h
+ *  \version 0.1
+ *  \date 2011-10-21
+ *  \author João Neves
+ *  \brief This is the App Settings class declaration.
+ */
 #ifndef APPSETTINGS_H
 #define APPSETTINGS_H
 
 #include <QSettings>
 
+/*!
+ *  \class AppSettings
+ *  \brief This class encapsulates the settings access.
+ */
 class AppSettings : public QSettings
 {
     Q_OBJECT
