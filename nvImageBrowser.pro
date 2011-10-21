@@ -15,5 +15,19 @@ RCC_DIR = objects/
 UI_DIR = objects/
 
 SOURCES += \
-    sources/main.cpp
+    sources/main.cpp \
+    sources/appcontroler.cpp \
+    sources/appsettings.cpp
+
+RESOURCES += \
+    resources.qrc
+
+HEADERS += \
+    sources/appcontroler.h \
+    sources/appsettings.h
+
+
+
+
+
 

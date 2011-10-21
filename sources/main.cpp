@@ -6,6 +6,8 @@
  *  \brief This is the application main file.
  */
 #include <QtGui/QApplication>
+#include <QIcon>
+#include "appcontroler.h"
 
 /*!
  *  \brief This is the main function.
@@ -19,7 +21,10 @@ int main(int argc, char *argv[])
     a.setApplicationName("nvImageBrowser");
     a.setApplicationVersion("0.1");
     a.setOrganizationName("NvSoft");
-    // a.setWindowIcon(QIcon(":/icons/resources/app.png"));
+    a.setWindowIcon(QIcon(":/icons/resources/app.png"));
+
+    AppControler appControler;
+    appControler.startApp(a.arguments());
 
     return a.exec();
 }
